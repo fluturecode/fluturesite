@@ -1,12 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import { FC } from 'react';
+import { Nav } from "./features/nav";
 
-export const App = () => {
+export const App: FC = () => {
   return (
-   <>
-   Fluturesite
-   </>
-  );
+    <>
+      <Nav/>
+    // Overview
+    // Projects
+    // Skills
+    // Footer
+    </>
+  )
 };
